@@ -1,13 +1,109 @@
+/* Estilos generales para simular una temática espacial */
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  background: #0a0a23;
+  /* Fondo oscuro para simular el espacio */
+  color: #fff;
+  /* Texto en blanco para contraste */
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Estilos para el contenedor principal */
+div {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Estilos para los títulos */
+h1 {
+  color: #ff6f61;
+  /* Color inspirado en nebulosas */
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #4dd2ff;
+  /* Color inspirado en estrellas */
+}
+
+h3 {
+  color: #ffdf00;
+  /* Color inspirado en el sol */
+}
+
+/* Estilos para el select */
+select {
+  padding: 10px;
+  margin: 20px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #222244;
+  /* Fondo oscuro para el select */
+  color: #fff;
+  /* Texto en blanco para contraste */
+}
+
+/* Estilos para las imágenes */
+img,
+video {
+  width: 300px;
+  height: 300px;
+  border-radius: 10%;
+  margin: 10px 0;
+  border: 3px solid #4dd2ff;
+  /* Borde inspirado en estrellas */
+}
+
+/* Estilos para los mensajes de carga y error */
+p {
+  color: #ccc;
+}
+
+/* Estilos específicos para mensajes de error */
+p.error {
+  color: #ff6f61;
+  /* Color de error inspirado en nebulosas */
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  background-color: #222244;
+  /* Fondo oscuro para el código */
+  color: #4dd2ff;
+  /* Color de texto inspirado en estrellas */
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+/* Mejoras generales en la interfaz */
+button,
+input,
+select {
+  background-color: #333355;
+  /* Fondo oscuro para elementos de formulario */
+  color: #ffffff;
+  /* Texto en blanco para contraste */
+  border: 1px solid #4dd2ff;
+  /* Borde inspirado en estrellas */
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover,
+input:hover,
+select:hover {
+  background-color: #444466;
+  /* Cambio de color al pasar el mouse */
+}
+
+/* Estilos para enlaces */
+a {
+  color: #4dd2ff;
+  /* Color inspirado en estrellas */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
